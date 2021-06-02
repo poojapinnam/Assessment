@@ -1,0 +1,30 @@
+-------------------------------------------------------------------------------
+Test set: Examples
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 59.604 s <<< FAILURE! - in Examples
+Example #1  Time elapsed: 59.599 s  <<< FAILURE!
+org.assertj.core.error.AssertJMultipleFailuresError: 
+
+Multiple Failures (3 failures)
+-- failure 1 --
+Expecting:
+ <"It's the fastest way to fly anywhere.">
+to be equal to:
+ <"Shopping is the new black">
+but was not.
+at DBSCreditCardsPage.compareBestFor(DBSCreditCardsPage.java:79)
+-- failure 2 --
+Expecting:
+ <"N/A">
+to be equal to:
+ <"Enjoy great dining privileges with the DBS PayLah!.">
+but was not.
+at DBSCreditCardsPage.dining(DBSCreditCardsPage.java:195)
+-- failure 3 --
+Expecting:
+ <"Enjoy exclusive hotel and travel privileges with DBS Altitude Card">
+to be equal to:
+ <"Enjoy great travel privileges with the DBS PayLah!">
+but was not.
+at DBSCreditCardsPage.travel(DBSCreditCardsPage.java:219)
+
